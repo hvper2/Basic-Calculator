@@ -21,7 +21,7 @@ body{
     width: 94%;
     background-color: #444;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 2em;
@@ -38,7 +38,7 @@ body{
 .button {
     background-color: #666;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     font-size: 1.5em;
     color: #fff;
