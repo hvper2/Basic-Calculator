@@ -13,8 +13,12 @@ function clearDisplay() {
 
 //Calculate
 function calculate() {
-    // alert(display.value);
     let result = eval(display.value);
-    display.value = result;
+    if(result != null){
+        display.value = result;
+    }
+    else{
+        return 0;
+    }
 }
 
