@@ -1,24 +1,22 @@
-let display = document.querySelector('.display');
-let buttons = document.querySelectorAll('.button');
+let display = document.querySelector(".display");
+let buttons = document.querySelectorAll(".button");
 
 //AddValue
 function addValue(value) {
-    display.value += value;
+  display.value += value;
 }
 
 //Clear
 function clearDisplay() {
-    display.value = "";
+  display.value = "";
 }
 
 //Calculate
 function calculate() {
-    let result = eval(display.value);
-    if(result != null){
-        display.value = result;
-    }
-    else{
-        return 0;
-    }
+  let result = eval(display.value);
+  if (result != null) {
+    display.value = result;
+  } else {
+    return 0;
+  }
 }
-
